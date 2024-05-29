@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/Assets/fonts/OTF/Switzer-Regular.otf") format("opentype"),
+    url("/src/Assets/fonts/OTF/Switzer-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/Assets/fonts/OTF/Switzer-Bold.otf") format("opentype"),
+    url("/src/Assets/fonts/OTF/Switzer-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/Assets/fonts/OTF/Switzer-Light.otf") format("opentype"),
+    url("/src/Assets/fonts/OTF/Switzer-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/Assets/fonts/OTF/Switzer-Medium.otf") format("opentype"),
+    url("/src/Assets/fonts/OTF/Switzer-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/Assets/fonts/OTF/Switzer-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
 }
