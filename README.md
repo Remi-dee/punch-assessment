@@ -12,6 +12,12 @@ This project is a landing page developed as part of the MERN Stack Assessment fo
 - **Responsive Design**: Ensures the landing page is optimized for various devices and screen sizes.
 - **Performance Optimization**: Optimized for performance and maintainability.
 
+
+## Notable Decisions and Challenges
+State Management: The project uses React's Context API for state management to avoid prop drilling and to manage global states effectively.
+Responsiveness: Tailwind CSS's utility classes are utilized extensively to ensure the landing page is responsive across different devices.
+  
+
 ## Getting Started
 
 Follow these instructions to set up the project locally.
@@ -47,9 +53,6 @@ Open the project in your browser:
 
 Visit http://localhost:3000 in your web browser to see the landing page.
 
-Notable Decisions and Challenges
-State Management: The project uses React's Context API for state management to avoid prop drilling and to manage global states effectively.
-Responsiveness: Tailwind CSS's utility classes are utilized extensively to ensure the landing page is responsive across different devices.
 
 
 
