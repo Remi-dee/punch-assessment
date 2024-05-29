@@ -2,9 +2,12 @@ import FAQ from "./Faq";
 
 function Section6() {
   return (
-    <div>
-      <FAQ />
-    </div>
+    <>
+      <div>
+        <FAQ />
+      </div>
+      
+    </>
   );
 }
 

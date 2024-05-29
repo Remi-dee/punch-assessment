@@ -4,7 +4,7 @@ import Arrow from "../../Assets/sector5/Vector.png";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
-  const [isClicked, setIsClicked] = useState(false);
+
   const [clickedQuestionIndex, setClickedQuestionIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -135,7 +135,7 @@ const FAQ = () => {
                         <img
                           src={Arrow}
                           alt="Arrow"
-                          className="hidden md:flex ml-[300px] p-8"
+                          className="hidden md:flex ml-[300px] p-8 w-full"
                         />
                       )}
                     </div>
