@@ -40,27 +40,12 @@ Using npm:
 
 Or using yarn:
      ```bash
-   yarn install
-   ```
-   
-
-Start the development server:
-
-Using npm:
-
- ```bash
-   npm run start
- ```
-Or using yarn:
- ```bash
    yarn run start
- ```
+   ```
 
 Open the project in your browser:
 
 Visit http://localhost:3000 in your web browser to see the landing page.
-
-
 
 Notable Decisions and Challenges
 State Management: The project uses React's Context API for state management to avoid prop drilling and to manage global states effectively.
