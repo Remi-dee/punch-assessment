@@ -2,7 +2,9 @@ import React from "react";
 
 import Background from "../../Assets/section7/background.png";
 import Component1 from "./nestedComp1";
-import Component2 from "./nestedComp2";
+import Component2 from "./nestedComp2 copy";
+import Component3 from "./nestedComp3";
+
 
 const Section8 = () => {
   return (
@@ -25,6 +27,7 @@ const Section8 = () => {
       <div className="lg:flex flex-col lg:flex-row lg:overflow-x-scroll lg:space-x-4 w-full pb-8">
         <Component1 />
         <Component2 />
+        <Component3 />
       </div>
     </div>
   );
