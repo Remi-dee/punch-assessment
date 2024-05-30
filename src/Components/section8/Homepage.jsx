@@ -7,7 +7,7 @@ import Component2 from "./nestedComp2";
 const Section8 = () => {
   return (
     <div
-      className="flex flex-col lg:flex-row lg:space-x-[15px] items-center justify-center px-4 py-8 bg-cover w-full"
+      className="flex flex-col lg:flex-row lg:space-x-[15px] items-center justify-center px-4 py-8 bg-cover w-full "
       style={{
         backgroundImage: `url(${Background})`,
       }}

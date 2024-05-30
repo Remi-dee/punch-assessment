@@ -6,6 +6,7 @@ import Card2 from "../../Assets/section7/womanCard2.png";
 import Woman from "../../Assets/section7/woman1.png";
 import Card3 from "../../Assets/section7/designerCard.png";
 import Star from "../../Assets/section7/star.png";
+
 const Component1 = () => {
   return (
     <div className="relative bg-white lg:p-8 py-3  rounded-lg shadow-lg px-[58px]  lg:min-w-[1300px] lg:h-[652px]">
@@ -15,20 +16,20 @@ const Component1 = () => {
       <ul className="mt-4 flex flex-col gap-3  list-inside lg:w-[600px]">
         <li className="flex items-center gap-3 text-[20px] font-normal leading-[32px] text-[#202229]">
           <span>
-            <img src={Rectangle} alt="Bullet 1" className="w-5 lg:w-0" />
+            <img src={Rectangle} alt="Bullet 1" className="min-w-5" />
           </span>
           We pick the best for you to select.
         </li>
         <li className="flex items-center gap-3 text-[20px] font-normal leading-[32px] text-[#202229]">
           <span>
-            <img src={Rectangle} alt="Bullet 2" className="w-8 lg:w-0" />
+            <img src={Rectangle} alt="Bullet 2" className="min-w-5" />
           </span>
           Thousands of vetted candidates in dozens of categories.
         </li>
 
         <li className="flex items-center gap-3 text-[20px] font-normal leading-[32px] text-[#202229]">
           <span>
-            <img src={Rectangle} alt="Bullet 3" className="w-8 lg:w-0" />
+            <img src={Rectangle} alt="Bullet 3" className="min-w-5" />
           </span>
           Risk-free resource swapping for the best fit.
         </li>
