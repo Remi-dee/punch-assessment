@@ -9,13 +9,13 @@ const Header = () => {
   };
 
   return (
-    <header className="flex flex-col sm:flex-row justify-between items-center p-5 rounded-b-[16px] md:rounded-[16px] bg-[#525AA0] text-white">
-      <div className="flex space-x-[190px]  items-center mb-9 md:mb-0 ">
+    <header className="flex flex-col md:flex-row justify-between items-center p-5 rounded-b-[16px] md:rounded-[16px] bg-[#525AA0] text-white">
+      <div className="flex sm:space-x-[500px] space-x-[190px]  items-center mb-9 md:mb-0 ">
         <div className="text-2xl font-bold md:mb-4 sm:mb-0">
           <img alt="Logo" src={Logo} className="" />
         </div>
 
-        <div className="sm:hidden flex items-center">
+        <div className="md:hidden flex items-center">
           <button onClick={toggleMobileMenu} className="focus:outline-none">
             <div className="space-y-1.5">
               <div
@@ -39,9 +39,9 @@ const Header = () => {
       </div>
 
       <nav
-        className={`flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 ${
+        className={`flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 ${
           isMobileMenuOpen ? "block" : "hidden"
-        } sm:block`}
+        } md:block`}
       >
         <a href="#find-work" className="hover:underline">
           Find Work
@@ -59,7 +59,7 @@ const Header = () => {
           Contact Us
         </a>
       </nav>
-      <div className="flex space-x-4 mt-4  sm:mt-0">
+      <div className="flex space-x-4 mt-4  md:mt-0">
         <button className="bg-transparent text-white px-4 py-2 rounded">
           Log In
         </button>
