@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="flex flex-col sm:flex-row justify-between items-center p-5 rounded-b-[16px] md:rounded-[16px] bg-[#525AA0] text-white">
-      <div className="flex space-x-[300px] items-center mb-9 md:mb-0 ">
+      <div className="flex space-x-[190px]  items-center mb-9 md:mb-0 ">
         <div className="text-2xl font-bold md:mb-4 sm:mb-0">
           <img alt="Logo" src={Logo} className="" />
         </div>
@@ -59,7 +59,7 @@ const Header = () => {
           Contact Us
         </a>
       </nav>
-      <div className="flex space-x-4 mt-4 sm:mt-0">
+      <div className="flex space-x-4 mt-4  sm:mt-0">
         <button className="bg-transparent text-white px-4 py-2 rounded">
           Log In
         </button>
