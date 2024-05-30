@@ -11,8 +11,6 @@ import Chat from "../../Assets/section7/Chatbar.png";
 const Component1 = () => {
   return (
     <div className="relative bg-white lg:p-8 py-3  rounded-lg shadow-lg px-[58px]   lg:min-w-[1300px] lg:h-[652px]">
-     
-     
       <h2 className="lg:text-[54px] text-[35px] font-bold leading-[64px] mb-[37px] mt-[30px] lg:mt-[133px]">
         An open book.
       </h2>

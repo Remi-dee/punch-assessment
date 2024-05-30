@@ -22,7 +22,7 @@ const Section8 = () => {
         </p>
       </div>
 
-      <div className="lg:flex flex-col lg:flex-row lg:overflow-x-scroll space-x-4 w-full pb-8">
+      <div className="lg:flex flex-col lg:flex-row lg:overflow-x-scroll lg:space-x-4 w-full pb-8">
         <Component1 />
         <Component2 />
       </div>
