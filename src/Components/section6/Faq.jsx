@@ -127,7 +127,7 @@ const FAQ = () => {
                           "I want to work part-time, is that possible"
                             ? "my-auto "
                             : ""
-                        } text-[#202229] text-center lg:text-left md:ml-[580px]  text-[22px] font-normal leading-[24px]`}
+                        } text-[#202229] text-center lg:text-left md:ml-[180px] lg:ml-[580px]  text-[22px] font-normal leading-[24px]`}
                       >
                         {question}
                       </button>
@@ -135,7 +135,7 @@ const FAQ = () => {
                         <img
                           src={Arrow}
                           alt="Arrow"
-                          className="hidden md:flex ml-[300px] p-8 w-full"
+                          className="hidden md:flex ml-[300px] p-8 "
                         />
                       )}
                     </div>
