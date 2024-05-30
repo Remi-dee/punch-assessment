@@ -46,7 +46,7 @@ const CategoryTabs = () => {
         ))}
       </div>
       <div
-        className="md:flex justify-between mt-[23px] md:w-[800px] text-gray-600
+        className="md:flex justify-between mt-[23px] lg:w-[800px] text-gray-600
 "
       >
         <div>

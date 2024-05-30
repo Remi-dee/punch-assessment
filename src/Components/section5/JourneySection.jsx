@@ -20,7 +20,7 @@ import TenX from "../../Assets/section4/10x.png";
 const JourneySection = () => {
   return (
     <div className="relative overflow-hidden">
-      <h2 className="text-center text-3xl font-bold mt-[40px] md:mt-9  -mb-20 md:mb-5">
+      <h2 className="text-center text-3xl font-bold mt-[40px] md:mt-9  -mb-20 lg:mb-5">
         Start your journey today.
       </h2>
       <div className=" md:absolute z-20 -mb-4 w-full md:h-9 skew-x-3  bg-white"></div>
@@ -30,8 +30,8 @@ const JourneySection = () => {
           backgroundImage: `url(${FirstBackground})`,
         }}
       >
-        <div className="relative flex flex-col md:space-y-0 space-y-9 md:flex-row items-center justify-between">
-          <div className="mb-8 md:mb-0 ml-10 md:ml-0 md:mr-8 flex-1 md:pt-0 pt-[80px]">
+        <div className="relative flex flex-col lg:space-y-0 space-y-9 lg:flex-row items-center justify-between">
+          <div className="mb-8 lg:mb-0 ml-10 lg:ml-0 lg:mr-8 flex-1 lg:pt-0 pt-[80px]">
             <div className="flex items-center space-x-[16px]">
               <img src={One} alt="One" />
               <h3 className="text-2xl font-bold w-[300px]">
@@ -83,7 +83,7 @@ const JourneySection = () => {
             </div>
           </div>
 
-          <div className="hidden lg:absolute bottom-[-90px] right-[250px] md:flex z-0">
+          <div className="hidden lg:absolute bottom-[-90px] right-[250px] lg:flex z-0">
             <div className="rounded-[22px] flex-col bg-[#FFFFFFA6]  ">
               <img
                 src={FourthPerson}
@@ -93,7 +93,7 @@ const JourneySection = () => {
             </div>
           </div>
 
-          <div className="hidden lg:absolute bottom-[-90px] right-[5px] md:flex">
+          <div className="hidden lg:absolute bottom-[-90px] right-[5px] lg:flex">
             <div className="rounded-[22px] flex-col bg-[#FFFFFFA6]  ">
               <img
                 src={ThirdPerson}
@@ -202,10 +202,10 @@ const JourneySection = () => {
             </div>
           </div>
 
-          <div className="hidden lg:absolute top-[-70px]  right-[8px] md:flex items-center justify-center">
+          <div className="hidden lg:absolute top-[-70px]  right-[8px] lg:flex items-center justify-center">
             <img src={Avatar2} alt="Advert" />
           </div>
-          <div className="hidden lg:absolute top-[250px]  right-[-30px] md:flex items-center justify-center">
+          <div className="hidden lg:absolute top-[250px]  right-[-30px] lg:flex items-center justify-center">
             <img src={TenX} alt="advert" />
           </div>
         </div>

@@ -12,7 +12,7 @@ const TestimonialSection = () => {
       <div className="absolute  bg-[#202229] transform -skew-y-[400px] origin-top-right"></div>
 
       <div className="">
-        <div className="md:flex items-end md:space-x-[192px]">
+        <div className="md:flex items-end md:space-x-[10px] lg:space-x-[192px]">
           <div className="mt-[170px]">
             <h2 className="text-4xl font-bold mb-4 relative w-[280px]">
               How it worked for <span className="text-[#E60023]">Jason</span>{" "}
@@ -42,7 +42,7 @@ const TestimonialSection = () => {
             </div>
           </div>
         </div>
-        <div className="md:flex lg:space-x-[230px] mt-[20px] md:mt-[16px] text-gray-400 ">
+        <div className="md:flex md:space-x-[150px] lg:space-x-[230px] mt-[20px] md:mt-[16px] text-gray-400 ">
           <div>
             <p className="text-lg">
               Zwilt enabled us to deliver on time and they’ve been heavy hitters
