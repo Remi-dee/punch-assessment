@@ -40,12 +40,12 @@ const Component3 = () => {
         Learn More
       </button>
 
-      <div className=" flex flex-col gap-4 justify-center text-center my-auto lg:space-x-0">
+      <div className=" flex flex-col gap-4 justify-center text-center mx-auto my-auto lg:space-x-0">
         <div className="flex mx-auto lg:absolute top-[100px] right-[190px] z-10">
           <img src={Chat} alt="Card" />
         </div>
 
-        <div className="hidden lg:flex lg:absolute top-[22px] right-[225px]">
+        <div className=" lg:flex lg:absolute top-[22px] right-[225px]">
           <img src={Time} alt="Face" />
         </div>
 
