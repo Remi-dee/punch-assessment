@@ -16,7 +16,7 @@ const Features = () => {
         </p1>
       </div>
 
-      <div className="flex items-center bg-[#FFFFFF] space-x-5 w-[400px] mt-[30px] md:w-[635px] rounded-[7px] px-[20px] py-[32px] border border-solid border-[#F0F0F0]">
+      <div className="flex items-center bg-[#FFFFFF] space-x-5  w-[300px]  mt-[30px] md:w-[635px] rounded-[7px] px-[20px] py-[32px] border border-solid border-[#F0F0F0]">
         <div className="flex items-center space-x-5 ">
           <div className="">
             <img src={Icon2} alt="icon" />
@@ -31,7 +31,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className="w-[400px] bg-[#FFFFFF] shadow-lg shadow-slate-200  mt-[5px] md:w-[635px] rounded-[7px] px-[20px] py-[19px] border border-solid border-[#F0F0F0]">
+      <div className="w-[300px] bg-[#FFFFFF] shadow-lg shadow-slate-200  mt-[5px] md:w-[635px] rounded-[7px] px-[20px] py-[19px] border border-solid border-[#F0F0F0]">
         <div className="flex items-center space-x-5 mb-[16px]">
           <div className="">
             <img src={Icon1} alt="icon" />
@@ -52,7 +52,7 @@ const Features = () => {
         </p>
       </div>
 
-      <div className="flex bg-transparent items-center space-x-5 w-[400px] mt-[5px] md:w-[635px] rounded-[7px] px-[20px] py-[32px] border border-solid border-[#F0F0F0]">
+      <div className="flex bg-transparent items-center space-x-5 w-[300px] mt-[5px] md:w-[635px] rounded-[7px] px-[20px] py-[32px] border border-solid border-[#F0F0F0]">
         <div className="flex items-center space-x-5 ">
           <div className="">
             <img src={Icon2} alt="icon" />
@@ -68,7 +68,7 @@ const Features = () => {
         </div>
       </div>
 
-      <div className="flex items-center bg-transparent space-x-5 w-[400px] mt-[5px] md:w-[635px] rounded-[7px] px-[20px] py-[32px] border border-solid border-[#F0F0F0]">
+      <div className="flex items-center bg-transparent space-x-5 w-[300px] mt-[5px] md:w-[635px] rounded-[7px] px-[20px] py-[32px] border border-solid border-[#F0F0F0]">
         <div className="flex items-center space-x-5 ">
           <div className="">
             <img src={Icon2} alt="icon" />
@@ -84,7 +84,7 @@ const Features = () => {
         </div>
       </div>
 
-      <div className="flex items-center bg-transparent space-x-5 w-[400px] mt-[5px] md:w-[635px] rounded-[7px] px-[20px] py-[32px] border border-solid border-[#F0F0F0]">
+      <div className="flex items-center bg-transparent space-x-5 w-[300px] mt-[5px] md:w-[635px] rounded-[7px] px-[20px] py-[32px] border border-solid border-[#F0F0F0]">
         <div className="flex items-center space-x-5 ">
           <div className="">
             <img src={Icon2} alt="icon" />

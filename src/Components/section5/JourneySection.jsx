@@ -31,7 +31,7 @@ const JourneySection = () => {
         }}
       >
         <div className="relative flex flex-col md:space-y-0 space-y-9 md:flex-row items-center justify-between">
-          <div className="mb-8 md:mb-0 md:mr-8 flex-1 md:pt-0 pt-[80px]">
+          <div className="mb-8 md:mb-0 ml-10 md:ml-0 md:mr-8 flex-1 md:pt-0 pt-[80px]">
             <div className="flex items-center space-x-[16px]">
               <img src={One} alt="One" />
               <h3 className="text-2xl font-bold w-[300px]">
@@ -112,7 +112,7 @@ const JourneySection = () => {
         }}
       >
         <div className="relative flex flex-col md:flex-row items-center justify-between">
-          <div className="mb-8 md:mb-0 md:mr-8 flex-1 md:pt-0 pt-[100px]">
+          <div className="mb-8 ml-10 md:ml-0 md:mb-0 md:mr-8 flex-1 md:pt-0 pt-[100px]">
             <div className="flex items-center space-x-[16px]">
               <img src={Two} alt="Two" />
               <h3 className="text-2xl font-bold w-[300px]">
@@ -159,7 +159,7 @@ const JourneySection = () => {
         }}
       >
         <div className="relative flex flex-col md:flex-row items-center justify-between">
-          <div className="mb-8 md:mb-0 md:mr-8 flex-1 md:pt-0 pt-[40px]">
+          <div className="mb-8  md:mb-0 md:mr-8 flex-1 md:pt-0 pt-[40px]">
             <div className="flex items-center space-x-[16px]">
               <img src={Three} alt="Three" />
               <h3 className="text-2xl font-bold w-[300px]">
