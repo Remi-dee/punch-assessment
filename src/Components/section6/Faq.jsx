@@ -3,7 +3,7 @@ import Background from "../../Assets/sector5/background.png";
 import Arrow from "../../Assets/sector5/Vector.png";
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(0);
 
   const [clickedQuestionIndex, setClickedQuestionIndex] = useState(null);
 

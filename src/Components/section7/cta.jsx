@@ -37,7 +37,7 @@ const CTA = () => {
             <p className="text-[14px] font-semibold leading-[32px]  mt-[80px] mb-[16px] opacity-40">
               LINKS AND REDIRECTS
             </p>
-            <div className="flex space-x-4">
+            <div className="flex flex-col gap-4 md:gap-0 md:flex-row md:space-x-4">
               <button className="px-6 py-4 bg-[#292B34] rounded-[26px]">
                 Hire now
               </button>
