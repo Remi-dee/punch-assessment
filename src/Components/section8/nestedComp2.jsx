@@ -10,7 +10,9 @@ import Bullet from "../../Assets/section7/yellowBuet.png";
 import Chat from "../../Assets/section7/Chatbar.png";
 const Component1 = () => {
   return (
-    <div className="relative bg-white lg:p-8 py-3  rounded-lg shadow-lg px-[58px]  lg:min-w-[1300px] lg:h-[652px]">
+    <div className="relative bg-white lg:p-8 py-3  rounded-lg shadow-lg px-[58px]   lg:min-w-[1300px] lg:h-[652px]">
+     
+     
       <h2 className="lg:text-[54px] text-[35px] font-bold leading-[64px] mb-[37px] mt-[30px] lg:mt-[133px]">
         An open book.
       </h2>
@@ -41,7 +43,7 @@ const Component1 = () => {
       </button>
 
       <div className=" flex flex-col gap-4 justify-center text-center my-auto lg:space-x-0">
-        <div className="lg:absolute top-[100px] right-[190px] z-10">
+        <div className="flex mx-auto lg:absolute top-[100px] right-[190px] z-10">
           <img src={Chat} alt="Woman Card" />
         </div>
 
@@ -53,7 +55,7 @@ const Component1 = () => {
           <img src={Face2} alt="Face" />
         </div>
 
-        <div className="lg:absolute top-[150px] right-[190px] z-20">
+        <div className="flex mx-auto lg:absolute top-[150px] right-[190px] z-20">
           <img src={Card} alt="Woman Card" />
         </div>
 
