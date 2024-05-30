@@ -31,7 +31,7 @@ const JourneySection = () => {
         }}
       >
         <div className="relative flex flex-col lg:space-y-0 space-y-9 lg:flex-row items-center justify-between">
-          <div className="mb-8 lg:mb-0 ml-10 lg:ml-0 lg:mr-8 flex-1 lg:pt-0 pt-[80px]">
+          <div className="mb-8 lg:mb-0 ml-10 md:ml-0 md:mr-8 flex-1 lg:pt-0 pt-[80px]">
             <div className="flex items-center space-x-[16px]">
               <img src={One} alt="One" />
               <h3 className="text-2xl font-bold w-[300px]">
@@ -111,8 +111,8 @@ const JourneySection = () => {
           backgroundImage: `url(${SecondBackground})`,
         }}
       >
-        <div className="relative flex flex-col md:flex-row items-center justify-between">
-          <div className="mb-8 ml-10 md:ml-0 md:mb-0 md:mr-8 flex-1 md:pt-0 pt-[100px]">
+        <div className="relative flex flex-col lg:flex-row items-center justify-between">
+          <div className="mb-8 ml-10 md:ml-0 md:mb-0 md:mr-8 flex-1 lg:pt-0 pt-[100px]">
             <div className="flex items-center space-x-[16px]">
               <img src={Two} alt="Two" />
               <h3 className="text-2xl font-bold w-[300px]">
@@ -153,13 +153,13 @@ const JourneySection = () => {
       </div>
 
       <div
-        className="relative md:h-[480px]  text-black py-[95px] px-6 md:px-16 overflow-hidden bg-cover "
+        className="relative lg:h-[480px] md:h-[680px]  text-black py-[95px] px-6 md:px-16 overflow-hidden bg-cover "
         style={{
           backgroundImage: `url(${ThirdBackground})`,
         }}
       >
-        <div className="relative flex flex-col md:flex-row items-center justify-between">
-          <div className="mb-8  md:mb-0 md:mr-8 flex-1 md:pt-0 pt-[40px]">
+        <div className="relative flex flex-col lg:flex-row items-center justify-between">
+          <div className="mb-8  md:mb-0 md:mr-8 flex-1 lg:pt-0 pt-[40px]">
             <div className="flex items-center space-x-[16px]">
               <img src={Three} alt="Three" />
               <h3 className="text-2xl font-bold w-[300px]">
